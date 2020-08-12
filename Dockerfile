@@ -12,7 +12,7 @@ RUN apt-get update && \
 
 #install fastlane
 RUN gem install fastlane \
-    && gem install bundler --no-ri --no-rdoc \
+    && gem install bundler \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* \
     && apt-get autoremove -y && apt-get clean
 
