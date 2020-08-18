@@ -1,4 +1,4 @@
-FROM circleci/android:api-29-node
+FROM circleci/android@sha256:b6646fdf7457f61825526e7bfce364d8e533da6ceb1cdb98e371e94348ecc834
 
 USER root
 
